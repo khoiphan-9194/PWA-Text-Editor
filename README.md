@@ -48,8 +48,9 @@ WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
 ```
 ## Table of Contents
-1. [Description](#description)
-2. [Table of Contents](#table-of-contents)
+
+1. [Technologies](#technologies)
+2. [Description](#description)
 3. [Usage](#usage)
 4. [Installation](#installation)
 5. [License](#license)
@@ -61,7 +62,28 @@ THEN I should have proper build scripts for a webpack application
 
 
 <br/>
+
+## Technologies
+
+This application is powered by Webpack (HTML-Webpack-Plugin, Babel, and CSS Loader), Node.js , Express.js and JavaScript. Nodemon  and Concurrently  were utilized as a devDependencies allowing the server to refresh when edits were made to application, and allowing both the front end and back end to be ran on a single command (npm run start:dev).
+
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+
+
+
+
 ## Description
 
 Text Editor is a Progressive Web Application (PWA) that runs in the browser, offline and can be installed locally to your machine. The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection. This application allows the user to access visited pages even if the application is offline.
-🚀The application has been deployed to render.com and the URL of the deployed application is [render](https://pwa-text-editor-ii8k.onrender.com/)
+🚀The application has been deployed to render.com and the URL of the deployed application is [TextEditor](https://pwa-text-editor-ii8k.onrender.com/)
+
+
+## Usage
+Usage of this application is very intuitive, just visit the live URL (https://pwa-text-editor-ii8k.onrender.com/) and start adding notes right away! Users will also notice an install button in the nav bar allowing for the application to be downloaded and used offline. Saving of notes occurs automatically through the IndexedDB; the only thing required is for the user to click out of the window and notes will be persisted whether using the application online or offline
+
