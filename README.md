@@ -53,12 +53,10 @@ THEN I should have proper build scripts for a webpack application
 2. [Description](#description)
 3. [Usage](#usage)
 4. [Installation](#installation)
-5. [License](#license)
-6. [Technologies Employed](#technologies-employed)
-7. [Future Development](#future-development)
-8. [Contributing](#contributing)
-9. [Tests](#tests)
-10. [Questions](#questions)
+5. [Demo](#demo)
+6. [Submission](#submission)
+7. [License](#license)
+8. [Questions](#questions)
 
 
 <br/>
@@ -86,4 +84,42 @@ Text Editor is a Progressive Web Application (PWA) that runs in the browser, off
 
 ## Usage
 Usage of this application is very intuitive, just visit the live URL (https://pwa-text-editor-ii8k.onrender.com/) and start adding notes right away! Users will also notice an install button in the nav bar allowing for the application to be downloaded and used offline. Saving of notes occurs automatically through the IndexedDB; the only thing required is for the user to click out of the window and notes will be persisted whether using the application online or offline
+
+
+## Installation
+
+ Run the following at the command line
+```
+    - npm install
+    - npm run start:dev 
+```
+## Demo
+Screenshot:
+![Screenshot](./Assets/shot1.jpg)
+
+Video:
+
+[walkthru.webm](https://github.com/khoiphan-9194/PWA-Text-Editor/assets/149036903/93a38948-16c3-49f8-9260-93c2de567ef7)
+
+## Submission
+ [KhoiPhan-Github repository](https://github.com/khoiphan-9194/PWA-Text-Editor)
+
+## License
+[![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://opensource.org/licenses/MIT)
+
+SVG Logo Maker © is licensed under the ISC license.  
+
+For more information regarding the SVG Logo Maker's license, please visit: 
+https://opensource.org/licenses/MIT
+
+  
+## Questions?
+  
+### Github:[khoiphan-9194](https://github.com/khoiphan-9194)
+  
+### Reach Me Via Email: phanminhkhoi91@gmail.com
+
+Thanks for viewing!
+
+<img src="https://raw.githubusercontent.com/its-jefe/image-hosting/main/goal-pole.png" width="20%">
 
