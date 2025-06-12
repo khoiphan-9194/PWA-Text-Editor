@@ -79,7 +79,7 @@ This application is powered by Webpack (HTML-Webpack-Plugin, Babel, and CSS Load
 ## Description
 
 Text Editor is a Progressive Web Application (PWA) that runs in the browser, offline and can be installed locally to your machine. The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection. This application allows the user to access visited pages even if the application is offline.
-🚀The application has been deployed to render.com and the URL of the deployed application is [TextEditor](https://pwa-text-editor-ii8k.onrender.com/)
+🚀The application has been deployed to render.com and the URL of the deployed application is [TextEditor](https://pwa-text-editor-fqko.onrender.com/)
 
 
 ## Usage
